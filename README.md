@@ -107,6 +107,10 @@ Three control loops govern the system, all modeled and verified in MATLAB/Simuli
 
 ## Hardware Implementation
 
+### Physical Prototype
+
+![Hardware Setup](images/hardware_setup.png)
+*Bench prototype: TI C2000 Piccolo controller, gate driver board, MOSFET power stage, and sensor wiring.*
 ```mermaid
 flowchart TD
     MCU[TI C2000 / Piccolo LaunchPad] --> GD[IR2110 Gate Drivers]
