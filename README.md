@@ -13,6 +13,11 @@ This project merges both into an **Islandable Microgrid**: it operates synchroni
 
 ## System Architecture
 
+### Simulink Model
+
+![Simulink Model](images/System_software_arch.jpeg)
+*Complete closed-loop model: PV array, boost/buck-boost converters, H-bridge inverter, and the three control loops (MPPT, voltage regulation, hysteresis current control).*
+
 ```mermaid
 flowchart TD
     A[Solar PV Array] -->|Variable DC| B[DC-DC Boost Converter<br/>MPPT]
