@@ -109,7 +109,7 @@ Three control loops govern the system, all modeled and verified in MATLAB/Simuli
 
 ### Physical Prototype
 
-![Hardware Setup](images/hardware_setup.png)
+![Hardware Setup](Images/Hardware_arch.jpeg)
 *Bench prototype: TI C2000 Piccolo controller, gate driver board, MOSFET power stage, and sensor wiring.*
 ```mermaid
 flowchart TD
