@@ -132,4 +132,4 @@ flowchart TD
 | Control unit | TI C2000 Piccolo | Embedded MATLAB / C2802x target blocks |
 | Gate driver | IR2110 | Direct discrete logic PWM generator |
 
-## Repository Structure
+## for detailed  review do contact
